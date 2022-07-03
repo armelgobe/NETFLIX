@@ -52,3 +52,60 @@ nav .droite p {
 }
 
 /*Fin mise en forme barre de navigation*/
+
+/*Mise en forme section films et séries*/
+
+.films-et-series {
+    background-color: #191a1a;
+    padding: 25px;
+}
+
+.films-et-series .section {
+    margin: bottom 55px;
+}
+
+.films-et-series .section p{
+    color: #fff;
+
+}
+
+.films-et-series .section .list {
+    display: flex;
+    scrollbar-width: none;
+    overflow-x: auto;
+   
+}
+/*Enlever la scrollbar*/
+.films-et-series .section .list::-webkit-scrollbar{
+    display: none;
+}
+
+.films-et-series .section a{
+    padding-left: 5px;
+    transition: transform 0.25s;
+ }
+
+  .films-et-series .section a:hover{
+    transform:scale(1.05);
+  }
+  .films-et-series .section a img{
+    height: 140px;
+  }
+
+/*Fin mise en forme films et séries*/
+
+/*Mise en forme footer*/
+footer {
+    background-color:black;
+    color: #909191;
+    padding: 25px 100px;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+/*Fin mise en forme footer*/
