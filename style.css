@@ -96,8 +96,8 @@ nav .droite p {
 
 /*Mise en forme footer*/
 footer {
-    background-color:black;
-    color: #909191;
+    background-color:darkgray;
+    color: white;
     padding: 25px 100px;
 }
 
